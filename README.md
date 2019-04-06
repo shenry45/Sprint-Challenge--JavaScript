@@ -30,11 +30,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The .forEach method changes the original array where .map will create a different array with an changes.
+
 2. What is the difference between a function and a method?
+
+A function describes the actions to be performed when invoked. A method is a built-in function to JavaSript that executes when invoked without writing out the actions to be performed.
 
 3. What is closure?
 
+Closure is the lexical scope of the function being return which creates a lexical environment copying same tier variables for returned function later down the chain.
+
 4. Describe the four rules of the 'this' keyword.
+
+- Window binding is setting the 'this' keyword to save it's properties to the Window object.
+- Implicit binding sets a specific order of properties to abide by (ie. object.prop.el)
+- Explicit binding uses methods like .call, .apply, and .bind to overwrite the current binding pattern
+- New binding is the creation of a new instance of a predefined object using 'new'
 
 5. Why do we need super() in an extended class?
 
